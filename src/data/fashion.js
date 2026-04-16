@@ -3,7 +3,7 @@ const fashion = [
     id: 1,
     title: "sky blue baggy jeans for men",
     price: "₹899",
-    image: "/images/Fashion/Lightbluejeans.jpeg",
+    image: "/images/Fashion/Lightbluejeans.jpg",
     link: "https://amazon.in",
     tag: "Best Seller"
   },
