@@ -10,18 +10,18 @@ export default function ProductCard({ title, image, price, link, tag }) {
       )}
 
       {/* IMAGE */}
-      <div className="overflow-hidden">
+      <div className="h-72 bg-[#0f0f0f] flex items-center justify-center p-3 overflow-hidden">
         <img
           src={image}
           alt={title}
-          className="w-full h-56 object-cover group-hover:scale-110 transition duration-500"
+          className="max-h-full max-w-full object-contain transition duration-500 group-hover:scale-105"
         />
       </div>
 
       {/* CONTENT */}
       <div className="p-4">
 
-        <h3 className="text-sm font-semibold text-white line-clamp-2">
+        <h3 className="text-sm font-semibold text-white line-clamp-2 min-h-[40px]">
           {title}
         </h3>
 
