@@ -1,4 +1,4 @@
-export default function ProductCard({ title, image, price, link, tag,imgClass }) {
+export default function ProductCard({ title, image, price, link, tag, imgClass }) {
   return (
     <div className="group relative rounded-2xl overflow-hidden border border-white/10 bg-white/5 backdrop-blur-md transition duration-300 hover:-translate-y-1 hover:shadow-xl hover:shadow-blue-500/10">
 
@@ -14,7 +14,7 @@ export default function ProductCard({ title, image, price, link, tag,imgClass })
         <img
           src={image}
           alt={title}
-          className={`w-full h-full object-cover object-top transition duration-500 group-hover:scale-105 ${imgClass}`}
+          className={`w-full h-full object-cover transition duration-500 group-hover:scale-105 ${imgClass}`}
         />
       </div>
 

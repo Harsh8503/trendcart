@@ -7,7 +7,7 @@ const fashion = [
   link: "https://amazon.in",
   tag: "Best Seller",
 
-  imgClass: "object-cover object-top scale-110",
+  imgClass: "object-[center_60%]"
 },
   {
     id: 2,
