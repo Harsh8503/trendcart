@@ -10,7 +10,7 @@ export default function ProductCard({ title, image, price, link, tag, imgClass }
       )}
 
       {/* IMAGE */}
-      <div className="relative h-[220px] sm:h-[220px] w-full overflow-hidden bg-[#111]">
+      <div className="relative h-[180px] sm:h-[350px] w-full overflow-hidden bg-[#111]">
         <img
           src={image}
           alt={title}
@@ -24,7 +24,7 @@ export default function ProductCard({ title, image, price, link, tag, imgClass }
           {title}
         </h3>
 
-        <p className="text-blue-400 font-bold mt-1 sm:mt-0 text-base sm:text-lg">
+        <p className="text-blue-400 font-bold mt-1 sm:mt-0 text-base text-md sm:text-lg">
           {price}
         </p>
 
@@ -33,7 +33,7 @@ export default function ProductCard({ title, image, price, link, tag, imgClass }
           href={link}
           target="_blank"
           rel="noopener noreferrer"
-          className="mt-3 sm:mt-4 block w-full text-center px-3 sm:px-4 py-2 rounded-xl bg-blue-600 hover:bg-blue-700 transition font-semibold text-sm sm:text-base"
+          className="mt-3 sm:mt-4 block w-full text-center px-2 sm:px-4 py-2 rounded-xl bg-blue-600 hover:bg-blue-700 transition font-semibold text-xs sm:text-base"
         >
           Buy Now
         </a>

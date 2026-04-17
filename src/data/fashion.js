@@ -60,7 +60,7 @@ const fashion = [
   {
     id: 8,
     title: "💙 Baggy Dark Wash Jeans 👖 | Streetwear Outfit for Men 🔥",
-    price: "2250",
+    price: "₹2250",
     image: "/images/Fashion/f5324b150d00018959f0880185da9c09.jpg",
     link: "https://ajiio.in/4YNz9ft",
   },
