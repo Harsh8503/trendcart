@@ -10,7 +10,7 @@ export default function ProductCard({ title, image, price, link, tag, imgClass }
       )}
 
       {/* IMAGE */}
-      <div className="relative h-[220px] sm:h-[350px] w-full overflow-hidden bg-[#111]">
+      <div className="relative h-[220px] sm:h-[220px] w-full overflow-hidden bg-[#111]">
         <img
           src={image}
           alt={title}
@@ -24,7 +24,7 @@ export default function ProductCard({ title, image, price, link, tag, imgClass }
           {title}
         </h3>
 
-        <p className="text-blue-400 font-bold mt-1 sm:mt-0 text-base sm:text-xl">
+        <p className="text-blue-400 font-bold mt-1 sm:mt-0 text-base sm:text-lg">
           {price}
         </p>
 
