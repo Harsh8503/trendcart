@@ -4,13 +4,13 @@ export default function ProductCard({ title, image, price, link, tag, imgClass }
 
       {/* TAG */}
       {tag && (
-        <span className="absolute top-3 left-3 z-10 text-xs px-3 py-1 rounded-full bg-blue-600 text-white">
+        <span className="absolute top-2 left-2 sm:top-3 sm:left-3 z-10 text-[10px] sm:text-xs px-2 py-1 sm:px-3 rounded-full bg-blue-600 text-white">
           {tag}
         </span>
       )}
 
       {/* IMAGE */}
-      <div className="relative h-[350px] w-full overflow-hidden bg-[#111]">
+      <div className="relative h-[220px] sm:h-[350px] w-full overflow-hidden bg-[#111]">
         <img
           src={image}
           alt={title}
@@ -19,12 +19,12 @@ export default function ProductCard({ title, image, price, link, tag, imgClass }
       </div>
 
       {/* CONTENT */}
-      <div className="p-4">
-        <h3 className="text-sm font-semibold text-white  ">
+      <div className="p-3 sm:p-4">
+        <h3 className="text-[12px] sm:text-sm font-semibold text-white leading-4 sm:leading-normal line-clamp-2">
           {title}
         </h3>
 
-        <p className="text-blue-400 font-bold mt-0 text-xl">
+        <p className="text-blue-400 font-bold mt-1 sm:mt-0 text-base sm:text-xl">
           {price}
         </p>
 
@@ -33,7 +33,7 @@ export default function ProductCard({ title, image, price, link, tag, imgClass }
           href={link}
           target="_blank"
           rel="noopener noreferrer"
-          className="mt-4 block w-full text-center px-4 py-2 rounded-xl bg-blue-600 hover:bg-blue-700 transition font-semibold"
+          className="mt-3 sm:mt-4 block w-full text-center px-3 sm:px-4 py-2 rounded-xl bg-blue-600 hover:bg-blue-700 transition font-semibold text-sm sm:text-base"
         >
           Buy Now
         </a>

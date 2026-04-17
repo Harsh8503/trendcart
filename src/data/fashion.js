@@ -38,6 +38,8 @@ const fashion = [
     price: "₹850",
     image: "/images/Fashion/6251e298a76f0671a8c016a5a4f08f3f.jpg",
     link: "https://ajiio.in/54b78Uf",
+  imgClass: "object-[center_90%]"
+
   },
   {
     id: 6,
@@ -45,6 +47,8 @@ const fashion = [
     price: "₹860",
     image: "/images/Fashion/5b4a1d736fbe00d3acbc3848e4d27a42.jpg",
     link: "https://ajiio.in/D42sqJn",
+  imgClass: "object-[center_70%]"
+
   },
   {
     id: 7,
@@ -66,6 +70,8 @@ const fashion = [
     price: "₹800",
     image: "/images/Fashion/90b211b08292e3b644a09321e294d028.jpg",
     link: "https://myntr.it/3eZsB3e",
+  imgClass: "object-[center_-0%]"
+
   },
    {
     id: 10,
@@ -73,6 +79,8 @@ const fashion = [
     price: "1100",
     image: "/images/Fashion/44f36ef1e3357496c7aa2994dc4d29d9.jpg",
     link: "https://ajiio.in/GCThapi",
+  imgClass: "object-[center_70%]"
+
   },
 ];
 
