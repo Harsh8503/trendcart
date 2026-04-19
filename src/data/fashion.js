@@ -1,14 +1,13 @@
 const fashion = [
   {
-  id: 1,
-  title: "sky blue baggy jeans for men",
-  price: "₹899",
-  image: "/images/Fashion/Lightbluejeans.jpg",
-  link: "https://amzn.to/40p661K",
-  tag: "Best Seller",
-
-  imgClass: "object-[center_60%]"
-},
+    id: 1,
+    title: "sky blue baggy jeans for men",
+    price: "₹899",
+    image: "/images/Fashion/Lightbluejeans.jpg",
+    link: "https://amzn.to/40p661K",
+    tag: "Best Seller",
+    imgClass: "object-[center_60%]"
+  },
   {
     id: 2,
     title: "👖 Clean Street Style Jeans Every Guy Needs 🔥💙",
@@ -38,7 +37,7 @@ const fashion = [
     price: "₹850",
     image: "/images/Fashion/6251e298a76f0671a8c016a5a4f08f3f.jpg",
     link: "https://ajiio.in/54b78Uf",
-  imgClass: "object-[center_90%]"
+    imgClass: "object-[center_90%]"
 
   },
   {
@@ -47,7 +46,7 @@ const fashion = [
     price: "₹860",
     image: "/images/Fashion/5b4a1d736fbe00d3acbc3848e4d27a42.jpg",
     link: "https://ajiio.in/D42sqJn",
-  imgClass: "object-[center_70%]"
+    imgClass: "object-[center_70%]"
 
   },
   {
@@ -70,16 +69,52 @@ const fashion = [
     price: "₹800",
     image: "/images/Fashion/90b211b08292e3b644a09321e294d028.jpg",
     link: "https://myntr.it/3eZsB3e",
-  imgClass: "object-[center_-0%]"
+    imgClass: "object-[center_-0%]"
 
   },
-   {
+  {
     id: 10,
     title: "💙 High Rise Blue Jeans 👖 | Clean Streetwear Outfit for Men 🔥",
-    price: "1100",
+    price: "₹1100",
     image: "/images/Fashion/44f36ef1e3357496c7aa2994dc4d29d9.jpg",
     link: "https://ajiio.in/GCThapi",
-  imgClass: "object-[center_70%]"
+    imgClass: "object-[center_70%]"
+
+  },
+  {
+    id: 11,
+    title: "🖤 Checked Shirt Outfit 👕 | Casual Street Style for Men 🔥✨",
+    price: "₹820",
+    image: "/images/Fashion/889aa4ccb7b3c6e608896baf51da8e48.jpg",
+    link: "https://ajiio.in/3i2r8bo",
+    imgClass: "object-[center_10%]"
+
+  },
+  {
+    id: 12,
+    title: "💗 Oversized Pink Shirt Outfit 👕 | Soft Boy Aesthetic & Street Style 🔥",
+    price: "₹850",
+    image: "/images/Fashion/d6352e977eb6dccfafb0b50b56948c34.jpg",
+    link: "https://ajiio.in/pLip7qt",
+    imgClass: "object-[center_10%] "
+
+  },
+  {
+    id: 13,
+    title: "🔥 Blue Striped Men’s Shirt | Clean Smart-Casual Outfit Idea 👔✨",
+    price: "₹560",
+    image: "/images/Fashion/9c37bebf6dd1be7277c905ee056adefd.jpg",
+    link: "https://ajiio.in/tIakW4m",
+    imgClass: "object-[center_10%] "
+
+  },
+  {
+    id: 14,
+    title: "🔥 Blue Striped Men’s Shirt | Clean Smart-Casual Outfit Idea 👔✨",
+    price: "₹560",
+    image: "/images/Fashion/9c37bebf6dd1be7277c905ee056adefd.jpg",
+    link: "https://ajiio.in/tIakW4m",
+    imgClass: "object-[center_10%] "
 
   },
 ];
