@@ -110,11 +110,74 @@ const fashion = [
   },
   {
     id: 14,
-    title: "🔥 Blue Striped Men’s Shirt | Clean Smart-Casual Outfit Idea 👔✨",
-    price: "₹560",
-    image: "/images/Fashion/9c37bebf6dd1be7277c905ee056adefd.jpg",
-    link: "https://ajiio.in/tIakW4m",
+    title: "🔥 Blue Striped Cotton Linen Shirt for Men | Clean Summer Outfit Idea 👔✨",
+    price: "₹1500",
+    image: "/images/Fashion/8a9ff1a0b4ccdf83fe00759ed7c37298.jpg",
+    link: "https://ajiio.in/cyh6vjL",
     imgClass: "object-[center_10%] "
+
+  },
+  {
+    id: 15,
+    title: "🌸 Pink Cotton Linen Shirt for Men | Minimal Summer Outfit Idea 👔✨",
+    price: "₹2900",
+    image: "/images/Fashion/18a5a08c86520e645f747cb467f8c55c.jpg",
+    link: "https://ajiio.in/wxeH5Tq",
+    imgClass: "object-[center_40%] scale-150"
+
+  },
+  {
+    id: 16,
+    title: "🔥 Blue Cotton Linen Shirt for Men | Clean Minimal Summer Outfit 👔✨",
+    price: "₹1199",
+    image: "/images/Fashion/a3576e4a402e6a200dfc48a4102dc1d9.jpg",
+    link: "https://ajiio.in/2dVkCi9",
+    imgClass: "object-[center_0%] scale-110"
+
+  },
+  {
+    id: 17,
+    title: "🔥 Navy Embroidered Men’s Shirt | Smart Casual Outfit Idea 👔✨",
+    price: "₹2300",
+    image: "/images/Fashion/d6dca9e29719580968cb8d9b2e300484.jpg",
+    link: "https://bitli.in/p9csHAs",
+    imgClass: "object-[center_0%] scale-110"
+
+  },
+  {
+    id: 18,
+    title: "🔥 Cream Cargo Pants for Men | Minimal Streetwear Outfit Idea 👖✨",
+    price: "₹899",
+    image: "/images/Fashion/1481bb3eb860c112b30ab53de591e721.jpg",
+    link: "https://bitli.in/47c7e15",
+    imgClass: "object-[center_0%] scale-110"
+
+  },
+  {
+    id: 19,
+    title: "🔥 Toffee Brown Cotton Linen Shirt for Men | Minimal Casual Outfit Idea 👔✨",
+    price: "₹1499",
+    image: "/images/Fashion/001464c95a8a94c4ac2e852274a4ea8e.jpg",
+    link: "https://ajiio.in/4qyxmhj",
+    imgClass: "object-[center_0%] scale-110"
+
+  },
+  {
+    id: 20,
+    title: "🔥 Olive Ribbed Shacket for Men | Stylish Layered Streetwear Outfit 🧥✨",
+    price: "₹300",
+    image: "/images/Fashion/41fc10c1939eed4773eb2e9757f34ecc.jpg",
+    link: "https://bitli.in/4mmrZI2",
+    imgClass: "object-[center_0%]"
+
+  },
+  {
+    id: 21,
+    title: "🔥 Wine Ribbed Slim-Fit T-Shirt for Men | Minimal Streetwear Style 👕✨",
+    price: "₹300",
+    image: "/images/Fashion/79ab7cfc6fb674c9dad49c5ee72e048f.jpg",
+    link: "https://bitli.in/CPpp4BL",
+    imgClass: "object-[center_60%] "
 
   },
 ];
